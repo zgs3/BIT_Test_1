@@ -16,6 +16,7 @@ img {
   margin-right: auto;
   position: relative;
   top: -2rem;
+  filter: invert(1);
 }
 
 h1 {
@@ -29,6 +30,11 @@ p {
   line-height: 1.7rem;
 }
 
+.nums {
+  padding-top: 0.5rem;
+  font-weight: 600;
+}
+
 .main-div {
   display: flex;
   margin: auto;
@@ -36,7 +42,6 @@ p {
 }
 
 .content {
-  flex: 1;
   max-width: 16rem;
   margin-right: auto;
   margin-left: auto;
@@ -73,7 +78,6 @@ p {
   left: -1rem;
   font-size: 2rem;
   color: rgb(136, 206, 206);
-  text-align: center;
 }
 
 #number2 {
@@ -87,7 +91,6 @@ p {
   left: -1rem;
   font-size: 2rem;
   color: rgb(67, 121, 238);
-  text-align: center;
 }
 
 #number3 {
@@ -101,7 +104,6 @@ p {
   left: -1rem;
   font-size: 2rem;
   color: rgb(240, 89, 63);
-  text-align: center;
 }
 
 #number4 {
@@ -115,5 +117,4 @@ p {
   left: -1rem;
   font-size: 2rem;
   color: rgb(106, 107, 107);
-  text-align: center;
 }
