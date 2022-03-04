@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+body {
+  margin-top: 10%;
+}
+
+img {
+  height: 12rem;
+  width: 13rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -2rem;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem 0rem 2rem 0rem;
+  color: rgb(228, 83, 67);
+}
+
+p {
+  text-align: center;
+  line-height: 1.7rem;
+}
+
+.main-div {
+  display: flex;
+  margin: auto;
+  max-width: 80%;
+}
+
+.content {
+  flex: 1;
+  max-width: 16rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#icon1 {
+  background-color: rgb(136, 206, 206);
+  border-radius: 10px;
+}
+
+#icon2 {
+  background-color: rgb(67, 121, 238);
+  border-radius: 10px;
+}
+
+#icon3 {
+  background-color: rgb(240, 89, 63);
+  border-radius: 10px;
+}
+
+#icon4 {
+  background-color: rgb(106, 107, 107);
+  border-radius: 10px;
+}
+
+#number1 {
+  width: 2.8rem;
+  height: 2.8rem;
+  background-color: white;
+  border: 5px solid rgb(136, 206, 206);
+  border-radius: 50px;
+  position: relative;
+  top: -1rem;
+  left: -1rem;
+  font-size: 2rem;
+  color: rgb(136, 206, 206);
+  text-align: center;
+}
+
+#number2 {
+  width: 2.8rem;
+  height: 2.8rem;
+  background-color: white;
+  border: 5px solid rgb(67, 121, 238);
+  border-radius: 50px;
+  position: relative;
+  top: -1rem;
+  left: -1rem;
+  font-size: 2rem;
+  color: rgb(67, 121, 238);
+  text-align: center;
+}
+
+#number3 {
+  width: 2.8rem;
+  height: 2.8rem;
+  background-color: white;
+  border: 5px solid rgb(240, 89, 63);
+  border-radius: 50px;
+  position: relative;
+  top: -1rem;
+  left: -1rem;
+  font-size: 2rem;
+  color: rgb(240, 89, 63);
+  text-align: center;
+}
+
+#number4 {
+  width: 2.8rem;
+  height: 2.8rem;
+  background-color: white;
+  border: 5px solid rgb(106, 107, 107);
+  border-radius: 50px;
+  position: relative;
+  top: -1rem;
+  left: -1rem;
+  font-size: 2rem;
+  color: rgb(106, 107, 107);
+  text-align: center;
+}
